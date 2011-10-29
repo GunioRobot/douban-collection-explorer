@@ -321,7 +321,7 @@ OAuth.setProperties(OAuth.SignatureMethod, // class members
         var superClass = OAuth.SignatureMethod;
         var subClass = function() {
             superClass.call(this);
-        }; 
+        };
         subClass.prototype = new superClass();
         // Delete instance variables from prototype:
         // delete subclass.prototype... There aren't any.
